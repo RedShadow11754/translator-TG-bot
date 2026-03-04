@@ -3,6 +3,7 @@ import httpx
 import requests
 import os
 import dotenv
+
 dotenv.load_dotenv()
 key = os.getenv('API_KEY')
 url = "https://api.translateapi.ai/api/v1/translate/"
